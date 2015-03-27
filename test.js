@@ -24,16 +24,18 @@
         }
     }
 
-    window.onresize = function () {
-        log('resized');
-        // cal();
-    };
-
-    cal();
 
     var input = document.getElementById('input');
     input.onfocus = function () {
-        clear();
+        log('focus')
         cal();
     };
+    input.onblur = function () {
+        log('blur');
+        // clear();
+    };
+    window.onresize = function () {
+        log('resized');
+    };
+    cal();
 }());
