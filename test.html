@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>screen test</title>
+    <link rel="stylesheet" href="./test.css">
 </head>
 <body>
+    <ul>
+        <li>
+            <p>window.outerWidth：<span data-code="window.outerWidth"></span></p>
+            <p>window.outerHeight：<span data-code="window.outerHeight"></span></p>
+        </li>
+        <li>
+            <p>window.innerWidth：<span data-code="window.innerWidth"></span></p>
+            <p>window.innerHeight：<span data-code="window.innerHeight"></span></p>
+        </li>
+        <li>
+            <p>screen.width：<span data-code="screen.width"></span></p>
+            <p>screen.height：<span data-code="screen.height "></span></p>
+        </li>
+        <li>
+            <p>screen.availWidth：<span data-code="screen.availWidth"></span></p>
+            <p>screen.availHeight：<span data-code="screen.availHeight"></span></p>
+        </li>
+        <li>
+            <p>
+                document.documentElement.clientWidth：
+                <span data-code="document.documentElement.clientWidth"></span>
+            </p>
+            <p>
+                document.documentElement.clientHeight：
+                <span data-code="document.documentElement.clientHeight"></span>
+            </p>
+        </li>
+        <li>
+            <p>
+                document.documentElement.offsetWidth：
+                <span data-code="document.documentElement.offsetWidth"></span>
+            </p>
+            <p>
+                document.documentElement.offsetHeight：
+                <span data-code="document.documentElement.offsetHeight"></span>
+            </p>
+        </li>
+        <li>
+            <p>
+                document.body.clientWidth：
+                <span data-code="document.body.clientWidth"></span>
+            </p>
+            <p>
+                document.body.clientHeight：
+                <span data-code="document.body.clientHeight"></span>
+            </p>
+        </li>
+        <li>
+            <p>
+                document.body.offsetWidth：
+                <span data-code="document.body.offsetWidth"></span>
+            </p>
+            <p>
+                document.body.offsetHeight：
+                <span data-code="document.body.offsetHeight"></span>
+            </p>
+        </li>
+    </ul>
+    <p>
+        <input type="text" id="input" placeholder="pick up the keyboard.">
+    </p>
+    <p id="log-title">log：<button id="clear">clear</button></p>
+    <p id="log-content"></p>
     <script src="./test.js"></script>
 </body>
 </html>
