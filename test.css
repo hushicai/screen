@@ -27,15 +27,9 @@ input {
     width: 300px;
 }
 
-#log-title {
-    margin-bottom: 10px;
-}
-#log-title button {
-    height: 20px;
-    box-sizing: border-box;
-    padding: 0px 5px;
-}
-#log-content {
-    /*padding: 10px 0;*/
-    margin-bottom: 10px;
+#log {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #fff;
 }
