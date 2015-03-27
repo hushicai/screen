@@ -28,7 +28,7 @@ input {
 }
 
 #log-title {
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 #log-title button {
     height: 20px;
@@ -36,5 +36,6 @@ input {
     padding: 0px 5px;
 }
 #log-content {
-    padding: 10px 0;
+    /*padding: 10px 0;*/
+    margin-bottom: 10px;
 }
